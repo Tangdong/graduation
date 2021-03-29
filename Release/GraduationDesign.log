@@ -1,0 +1,107 @@
+﻿生成启动时间为 2021/3/2 17:26:00。
+     1>项目“D:\360download\Vstest\GraduationDesign\GraduationDesign\GraduationDesign.vcxproj”在节点 2 上(Build 个目标)。
+     1>QtRccSetDependencies:
+         "D:\Qt\5.6.3\msvc2013\bin\rcc.exe" --list "GraduationDesign.qrc" > "Release\rcc_list.txt" 2> nul
+       QtWork:
+         Moc'ing GraduationDesign.h...
+         Moc'ing BookManagement.h...
+         Moc'ing BorrowInterface.h...
+         Moc'ing DLabel.h...
+         Moc'ing DDialog.h...
+         Moc'ing ChangePasswd.h...
+         Moc'ing ViewInformation.h...
+         Moc'ing SettingInterface.h...
+         Moc'ing ReturnInterface.h...
+         Moc'ing RegisterWidget.h...
+         Moc'ing ModifyInterface.h...
+         Moc'ing LoginWidget.h...
+         Moc'ing DTreeWidget.h...
+         Moc'ing DTableWidget.h...
+         Moc'ing DPageBtn.h...
+         Moc'ing DMessageBox.h...
+         Moc'ing DLineEdit.h...
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /ID:\Qt\5.6.3\msvc2013\include /I.\GeneratedFiles\Release /ID:\Qt\5.6.3\msvc2013\include\QtCore /ID:\Qt\5.6.3\msvc2013\include\QtGui /ID:\Qt\5.6.3\msvc2013\include\QtANGLE /ID:\Qt\5.6.3\msvc2013\include\QtNetwork /ID:\Qt\5.6.3\msvc2013\include\QtWidgets /nologo /W1 /WX- /MP /O2 /Oy- /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_NO_DEBUG /D NDEBUG /D QT_CORE_LIB /D QT_GUI_LIB /D QT_NETWORK_LIB /D QT_WIDGETS_LIB /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt BookManagement.cpp BorrowInterface.cpp ChangePasswd.cpp DDialog.cpp DLabel.cpp DLFUNC.cpp DLineEdit.cpp DMessageBox.cpp DPageBtn.cpp DTableWidget.cpp DTreeWidget.cpp GraduationDesign.cpp LoginWidget.cpp main.cpp ModifyInterface.cpp RegisterWidget.cpp ReturnInterface.cpp SettingInterface.cpp ViewInformation.cpp GeneratedFiles\qrc_GraduationDesign.cpp GeneratedFiles\Release\moc_GraduationDesign.cpp GeneratedFiles\Release\moc_BookManagement.cpp GeneratedFiles\Release\moc_BorrowInterface.cpp GeneratedFiles\Release\moc_DLabel.cpp GeneratedFiles\Release\moc_DDialog.cpp GeneratedFiles\Release\moc_ChangePasswd.cpp GeneratedFiles\Release\moc_ViewInformation.cpp GeneratedFiles\Release\moc_SettingInterface.cpp GeneratedFiles\Release\moc_ReturnInterface.cpp GeneratedFiles\Release\moc_RegisterWidget.cpp GeneratedFiles\Release\moc_ModifyInterface.cpp GeneratedFiles\Release\moc_LoginWidget.cpp GeneratedFiles\Release\moc_DTreeWidget.cpp GeneratedFiles\Release\moc_DTableWidget.cpp GeneratedFiles\Release\moc_DPageBtn.cpp GeneratedFiles\Release\moc_DMessageBox.cpp GeneratedFiles\Release\moc_DLineEdit.cpp
+         BookManagement.cpp
+         BorrowInterface.cpp
+         ChangePasswd.cpp
+         DDialog.cpp
+         DLabel.cpp
+         DLFUNC.cpp
+         DLineEdit.cpp
+     1>d:\360download\vstest\graduationdesign\graduationdesign\dlfunc.cpp(45): warning C4715: “DLFUNC::GetIndexText”: 不是所有的控件路径都返回值
+         DMessageBox.cpp
+         DPageBtn.cpp
+         DTableWidget.cpp
+         DTreeWidget.cpp
+         GraduationDesign.cpp
+         LoginWidget.cpp
+         main.cpp
+         ModifyInterface.cpp
+         RegisterWidget.cpp
+     1>d:\360download\vstest\graduationdesign\graduationdesign\graduationdesign.cpp(353): warning C4715: “GraduationDesign::GetSaveBook”: 不是所有的控件路径都返回值
+         ReturnInterface.cpp
+         SettingInterface.cpp
+         ViewInformation.cpp
+         qrc_GraduationDesign.cpp
+         moc_GraduationDesign.cpp
+         moc_BookManagement.cpp
+         moc_BorrowInterface.cpp
+         moc_DLabel.cpp
+         moc_DDialog.cpp
+         moc_ChangePasswd.cpp
+         moc_ViewInformation.cpp
+         moc_SettingInterface.cpp
+         moc_ReturnInterface.cpp
+         moc_RegisterWidget.cpp
+         moc_ModifyInterface.cpp
+         moc_LoginWidget.cpp
+         moc_DTreeWidget.cpp
+         moc_DTableWidget.cpp
+         moc_DPageBtn.cpp
+         moc_DMessageBox.cpp
+         moc_DLineEdit.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\360download\Vstest\GraduationDesign\Win32\Release\\GraduationDesign.exe" /NOLOGO /LIBPATH:D:\Qt\5.6.3\msvc2013\lib qtmain.lib Qt5Core.lib Qt5Gui.lib Qt5Network.lib Qt5Widgets.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"D:\360download\Vstest\GraduationDesign\Win32\Release\GraduationDesign.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\360download\Vstest\GraduationDesign\Win32\Release\GraduationDesign.lib" /MACHINE:X86 /SAFESEH Release\BookManagement.obj
+         Release\BorrowInterface.obj
+         Release\ChangePasswd.obj
+         Release\DDialog.obj
+         Release\DLabel.obj
+         Release\DLFUNC.obj
+         Release\DLineEdit.obj
+         Release\DMessageBox.obj
+         Release\DPageBtn.obj
+         Release\DTableWidget.obj
+         Release\DTreeWidget.obj
+         Release\GraduationDesign.obj
+         Release\LoginWidget.obj
+         Release\main.obj
+         Release\ModifyInterface.obj
+         Release\RegisterWidget.obj
+         Release\ReturnInterface.obj
+         Release\SettingInterface.obj
+         Release\ViewInformation.obj
+         Release\qrc_GraduationDesign.obj
+         Release\moc_GraduationDesign.obj
+         Release\moc_BookManagement.obj
+         Release\moc_BorrowInterface.obj
+         Release\moc_DLabel.obj
+         Release\moc_DDialog.obj
+         Release\moc_ChangePasswd.obj
+         Release\moc_ViewInformation.obj
+         Release\moc_SettingInterface.obj
+         Release\moc_ReturnInterface.obj
+         Release\moc_RegisterWidget.obj
+         Release\moc_ModifyInterface.obj
+         Release\moc_LoginWidget.obj
+         Release\moc_DTreeWidget.obj
+         Release\moc_DTableWidget.obj
+         Release\moc_DPageBtn.obj
+         Release\moc_DMessageBox.obj
+         Release\moc_DLineEdit.obj
+         GraduationDesign.vcxproj -> D:\360download\Vstest\GraduationDesign\Win32\Release\GraduationDesign.exe
+     1>已完成生成项目“D:\360download\Vstest\GraduationDesign\GraduationDesign\GraduationDesign.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:35.43

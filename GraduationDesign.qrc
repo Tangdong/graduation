@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/GraduationDesign">
+        <file>Resources/icon_out_window_click.png</file>
+        <file>Resources/icon_out_window_hover.png</file>
+        <file>Resources/icon_out_window_normal.png</file>
+    </qresource>
+</RCC>
